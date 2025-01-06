@@ -13,6 +13,7 @@ interface Category {
   image: string;
 }
 
+
 export interface CategoryType {
   id: number;
   name: string;

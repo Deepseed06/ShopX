@@ -60,7 +60,7 @@ const HomeScreen = (props: Props) => {
     />
     <ScrollView>
     <Categories categories={categories}/>
-    <FlashSale products={saleProducts}/>
+    <FlashSale products={saleProducts} />
     <View style={{marginBottom:10, marginHorizontal:20}}>
       <Image source={require('@/assets/images/sale-banner.jpg')}
       style={{width:"100%",height:150, borderRadius:15}}
